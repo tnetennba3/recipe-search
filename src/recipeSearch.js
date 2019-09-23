@@ -1,16 +1,28 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { SearchInput, SearchButton } from './style'
+import githubLogoBlack from './img/github_logo_black.png'
+import githubOctocat from './img/github_octocat.png'
+import { SearchInput, SearchButton, Image, GithubLink } from './style'
 
 const RecipeSearch = ({ query, handleSubmit, handleNewQuery }) => (
-  <form onSubmit={handleSubmit}>
-    <SearchInput
-      value={query}
-      placeholder="Search by recipe or ingredient"
-      onChange={handleNewQuery}
-    />
-    <SearchButton type="submit" />
-  </form>
+  <div>
+    <GithubLink
+      target="_blank"
+      rel="noreferrer noopener"
+      href="https://github.com/tnetennba3/recipe-search"
+    >
+      <Image src={githubLogoBlack} width="75px" />
+      <Image src={githubOctocat} width="30px" />
+    </GithubLink>
+    <form onSubmit={handleSubmit}>
+      <SearchInput
+        value={query}
+        placeholder="Search by recipe or ingredient"
+        onChange={handleNewQuery}
+      />
+      <SearchButton type="submit" />
+    </form>
+  </div>
 )
 
 RecipeSearch.propTypes = {

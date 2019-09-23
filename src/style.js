@@ -69,11 +69,6 @@ const RecipeCard = styled.li`
   background-color: ${LIGHT};
 `
 
-const RecipeImage = styled.img`
-  width: 300px;
-  height: 300px;
-`
-
 const RecipeName = styled.p`
   margin: 10px;
   text-align: left;
@@ -90,13 +85,24 @@ const RecipeInfo = styled.p`
   font-size: 14px;
 `
 
+const Image = styled.img`
+  width: ${props => props.width || '300px'};
+  align-self: center;
+`
+
+const GithubLink = styled.a`
+  display: flex;
+  margin-bottom: 20px;
+`
+
 export {
   Wrapper,
   SearchInput,
   SearchButton,
   RecipeList,
   RecipeCard,
-  RecipeImage,
   RecipeName,
   RecipeInfo,
+  Image,
+  GithubLink,
 }
