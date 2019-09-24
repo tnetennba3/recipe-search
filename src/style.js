@@ -90,8 +90,9 @@ const Image = styled.img`
   align-self: center;
 `
 
-const GithubLink = styled.a`
+const FlexWrapper = styled.div`
   display: flex;
+  align-items: flex-start;
   margin-bottom: 20px;
 `
 
@@ -104,5 +105,5 @@ export {
   RecipeName,
   RecipeInfo,
   Image,
-  GithubLink,
+  FlexWrapper,
 }
