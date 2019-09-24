@@ -1,6 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { RecipeList, RecipeCard, RecipeName, RecipeInfo, Image } from './style'
+import {
+  RecipeList,
+  RecipeCard,
+  RecipeImage,
+  RecipeName,
+  RecipeInfo,
+} from './style'
 
 const RecipeResults = ({ recipes }) => (
   <RecipeList>
@@ -8,7 +14,7 @@ const RecipeResults = ({ recipes }) => (
       ({ recipeUrl, id, imageUrl, name, ingredients, timeInMin }) => (
         <a target="_blank" rel="noreferrer noopener" href={recipeUrl} key={id}>
           <RecipeCard>
-            <Image src={imageUrl} alt="" />
+            <RecipeImage src={imageUrl} alt="" />
             <RecipeName>{name}</RecipeName>
             <RecipeInfo>Ingredients: {ingredients}</RecipeInfo>
             <RecipeInfo>

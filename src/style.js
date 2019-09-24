@@ -11,8 +11,8 @@ const Wrapper = styled.div`
   margin: 0 auto;
   text-align: center;
 
-  @media (max-width: 480px) {
-    padding: 20px;
+  @media (max-width: 768px) {
+    padding: 10px;
   }
 `
 
@@ -67,6 +67,21 @@ const RecipeCard = styled.li`
   list-style: none;
   margin: 20px;
   background-color: ${LIGHT};
+
+  @media (max-width: 800px) {
+    width: 250px;
+    height: 360px;
+  }
+`
+
+const RecipeImage = styled.img`
+  width: 300px;
+  height: 300px;
+
+  @media (max-width: 800px) {
+    width: 250px;
+    height: 250px;
+  }
 `
 
 const RecipeName = styled.p`
@@ -85,15 +100,15 @@ const RecipeInfo = styled.p`
   font-size: 14px;
 `
 
-const Image = styled.img`
-  width: ${props => props.width || '300px'};
-  align-self: center;
-`
-
 const FlexWrapper = styled.div`
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
+`
+
+const Image = styled.img`
+  width: ${props => props.width};
+  align-self: center;
 `
 
 export {
@@ -102,6 +117,7 @@ export {
   SearchButton,
   RecipeList,
   RecipeCard,
+  RecipeImage,
   RecipeName,
   RecipeInfo,
   Image,
