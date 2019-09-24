@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/recipe-search/static/css/main.4fb20f78.chunk.css",
-    "main.js": "/recipe-search/static/js/main.4e709523.chunk.js",
-    "main.js.map": "/recipe-search/static/js/main.4e709523.chunk.js.map",
+    "main.js": "/recipe-search/static/js/main.abd10554.chunk.js",
+    "main.js.map": "/recipe-search/static/js/main.abd10554.chunk.js.map",
     "runtime~main.js": "/recipe-search/static/js/runtime~main.b26d42ce.js",
     "runtime~main.js.map": "/recipe-search/static/js/runtime~main.b26d42ce.js.map",
     "static/js/2.70d71bd2.chunk.js": "/recipe-search/static/js/2.70d71bd2.chunk.js",
     "static/js/2.70d71bd2.chunk.js.map": "/recipe-search/static/js/2.70d71bd2.chunk.js.map",
     "index.html": "/recipe-search/index.html",
-    "precache-manifest.a3ff20f3f68c53472a1f4ce92daccec5.js": "/recipe-search/precache-manifest.a3ff20f3f68c53472a1f4ce92daccec5.js",
+    "precache-manifest.fe0f425dabe2d3b6133e27828a1f06ed.js": "/recipe-search/precache-manifest.fe0f425dabe2d3b6133e27828a1f06ed.js",
     "service-worker.js": "/recipe-search/service-worker.js",
     "static/css/main.4fb20f78.chunk.css.map": "/recipe-search/static/css/main.4fb20f78.chunk.css.map",
     "static/media/github_logo_black.png": "/recipe-search/static/media/github_logo_black.cefc2023.png",
